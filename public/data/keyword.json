@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "MC6zwxwUY-bsP_LTSJkHnLaqk40",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "US",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lDg84GBqGCTL1eUgT7sxx5vo2tI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ibm9DPcl5PM"
+      },
+      "snippet": {
+        "publishedAt": "2018-10-10T09:30:01Z",
+        "channelId": "UCee1MvXr6E8qC_d2WEYTU5g",
+        "title": "시츄 편 1부｜강형욱의 견종백과",
+        "description": "강형욱 훈련사님과 시츄 보호자님이 함께하는 생활 밀착형 견종 수다! '강형욱의 견종백과' 시츄 편 견종마다 고유의 특성, 역사뿐만 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ibm9DPcl5PM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ibm9DPcl5PM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ibm9DPcl5PM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "강형욱의 보듬TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-10-10T09:30:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7sLSKYRKQb9ozXytyvmG1Q6cfps",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8L6Mrk3Lwbo"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-06T23:00:03Z",
+        "channelId": "UC22go5LdQEw-iDuxFb4C0hw",
+        "title": "(※시츄 입덕 주의) 동네 고양이들이 밥을 뺏어먹자 시츄가 한 행동🙊ㅣShih Tzus That Yield Their Food to Stray Cats",
+        "description": "원조 아이돌 토니안이 당신의 강아지를 봐드립니다. -TV동물농장 토니안의 개봐드림 2화 예고편- 개봐드림 1화 보러가기↓↓↓ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8L6Mrk3Lwbo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8L6Mrk3Lwbo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8L6Mrk3Lwbo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS TV동물농장x애니멀봐",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-06T23:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2JW8VLSI_I2fyXVjhmo46fcx6OI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WctTP7wqMX0"
+      },
+      "snippet": {
+        "publishedAt": "2019-04-22T08:00:04Z",
+        "channelId": "UC22go5LdQEw-iDuxFb4C0hw",
+        "title": "시츄가 많으면 할 수 있는 것 1 ㅣThe Shih Tzus&#39; Tide Is Flowing (What You Can Do With Lots Of Shih Tzus EP1)",
+        "description": "무려 23마리의 시츄가 함께사는 유자네~ 그 첫번째 이야기! [시츄가 많으면 할 수 있는 것] 2화 ↓↓↓ https://youtu.be/s-km8Os3eZs ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WctTP7wqMX0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WctTP7wqMX0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WctTP7wqMX0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS TV동물농장x애니멀봐",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-04-22T08:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "cmAdrEL97bflU4gbvrvL0J83LwQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kjCOycHLgPY"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-09T08:00:22Z",
+        "channelId": "UCAhKKbDO9-ymWZ_7iAFLBQQ",
+        "title": "너무 순해서 강형욱 훈련사가 거의 볼 일 없다는 시추 ㅋㅋㅋ | 개는 훌륭하다 EP17 | KBS 200302 방송",
+        "description": "회차 정보 : 개는 훌륭하다 17화 (2020.03.02) #애니멀포유 #개는훌륭하다 #강형욱 #시추 #유권 #개훌륭 #강아지 #반려견 #시츄.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kjCOycHLgPY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kjCOycHLgPY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kjCOycHLgPY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS동물티비 : 애니멀포유 animal4u",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-09T08:00:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "A1weavvrUote2iTa0UZMI-rZQ08",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CH_URNMRa-o"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-08T01:30:04Z",
+        "channelId": "UC22go5LdQEw-iDuxFb4C0hw",
+        "title": "시츄들이랑 같이 키웠더니 시츄화 된 말티즈ㅋㅋ (못 찾을걸요)ㅣMaltese Is Shih Tzu-Fied Raised With Shih Tzus LOL",
+        "description": "원조 아이돌 토니안이 당신의 강아지를 봐드립니다. -TV동물농장 토니안의 개봐드림 2화- 이전 이야기 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CH_URNMRa-o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CH_URNMRa-o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CH_URNMRa-o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS TV동물농장x애니멀봐",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-08T01:30:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "s3TbkL-82Qy9YmNJGLiVz5tC9hc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NVDK6zEMQd8"
+      },
+      "snippet": {
+        "publishedAt": "2021-09-18T15:05:52Z",
+        "channelId": "UCPrVwJIUaYVDasjWhLsV2rA",
+        "title": "시츄 성격 한번에 알 수 있는 영상",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NVDK6zEMQd8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NVDK6zEMQd8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NVDK6zEMQd8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "별볼일있다",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-18T15:05:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_Xo6smXO9lrQl-CgbuXNOt5yC5U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "i-lAhM3IJGE"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-30T23:00:21Z",
+        "channelId": "UC22go5LdQEw-iDuxFb4C0hw",
+        "title": "강아지 강씨 시츄공파 3대손 개르신들ㅋㅋㅋㅣHuge Shih Tzu Family Where 3 Generations Live Together LOL",
+        "description": "원조 아이돌 토니안이 당신의 강아지를 봐드립니다. -TV동물농장 개봐드림 예고편- 다음 이야기↓↓↓ https://youtu.be/ef5B8Ij7REk ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/i-lAhM3IJGE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/i-lAhM3IJGE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/i-lAhM3IJGE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS TV동물농장x애니멀봐",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-30T23:00:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dcGDG3BieZSTizXmFy1m0B4noIQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lbXtaPDdOLk"
+      },
+      "snippet": {
+        "publishedAt": "2020-03-15T10:00:10Z",
+        "channelId": "UCD3UooIG6x6vxFOhHwYEXEw",
+        "title": "시츄 성격과 특성을 제대로 알고 시츄 키우기",
+        "description": "시츄의 성격과 특성 그리고 키우기 시작할때 부터 보낼때까지... 조금 더 신경써야 할 부분과 오해하고 있는 부분을 알려드립니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lbXtaPDdOLk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lbXtaPDdOLk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lbXtaPDdOLk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "돌봄개린이집",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-03-15T10:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yIp2SLwkosJoM4el1uRLp43hI-s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Vn5biZ8Lyyo"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-01T08:00:08Z",
+        "channelId": "UC22go5LdQEw-iDuxFb4C0hw",
+        "title": "(눈물주의) 하수구에 버려져있던 시츄 주인이라며 찾아온 여자.. 강아지 이름을 부르자ㅣTwist To The Dog That Seemed Like An Abandoned Dog",
+        "description": "하수구에 갇혀 있다 기적적으로 구조된 시츄 한 마리.. 당연히 버림받았을 줄 알았던 녀석에게 반전이 일어났다 이전 이야기 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Vn5biZ8Lyyo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Vn5biZ8Lyyo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Vn5biZ8Lyyo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS TV동물농장x애니멀봐",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-01T08:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oTh7wG6veLeh3Tg7vIKZYpuQCgI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "INHMIEdNxA0"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-07T12:43:18Z",
+        "channelId": "UClgQeD_1aTnHBr1PAUdFy5w",
+        "title": "시츄 성격을 알수있는 영상..",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/INHMIEdNxA0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/INHMIEdNxA0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/INHMIEdNxA0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "조이봄이Joy Bomi",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-07T12:43:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZxBVryGudk6YrtOpx_U3eQqL1Bs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ef5B8Ij7REk"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-01T03:00:17Z",
+        "channelId": "UC22go5LdQEw-iDuxFb4C0hw",
+        "title": "전직 탑 아이돌이 우리집 강아지 돌보미로 왔다🙊ㅣFormer Idol Member Who Became A Dog-Sitter",
+        "description": "원조 아이돌 토니안이 당신의 강아지를 봐드립니다. -TV동물농장 개봐드림 1화- 이전 이야기 ↓↓↓ https://youtu.be/i-lAhM3IJGE ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ef5B8Ij7REk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ef5B8Ij7REk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ef5B8Ij7REk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS TV동물농장x애니멀봐",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-01T03:00:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1L7M6ZFYkqipt8la8mMEbzcASjI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hLeZm8DPJXs"
+      },
+      "snippet": {
+        "publishedAt": "2021-03-12T09:00:12Z",
+        "channelId": "UCkjk77yUtLnuSalpGrlrG2Q",
+        "title": "시츄 대가족네 새 생명이 태어났어요♡ │어바웃펫 About Pet",
+        "description": "경축! 시츄 대가족 유자네에 새 생명이 태어났어요     귀여운 꼬물이들이랑 오랜만에 만나 더욱 반가운 유자네 시츄들❤ 오랜만에 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hLeZm8DPJXs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hLeZm8DPJXs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hLeZm8DPJXs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "스튜디오 어바웃펫",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-03-12T09:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bB1SRQvY_-EoC4_3PXprqpEioO8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xZRB12IkzXQ"
+      },
+      "snippet": {
+        "publishedAt": "2019-08-15T11:10:16Z",
+        "channelId": "UCxgCwKaS0_v_a5ozhHIrYPA",
+        "title": "eng) 아기 강아지 입양 첫날 벌어지는 일 -브라운시추 두루편- 💟심멎주의 | 여우비 두루두비",
+        "description": "애기미 폭발하는 애기 '두루' 입양 첫날 영상입니다. 어리둥절하고 호기심 가득한 아직 이름이 없던 애기 시절 모습입니다   (물론 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xZRB12IkzXQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xZRB12IkzXQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xZRB12IkzXQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "여우비두두",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-08-15T11:10:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "txlK8NIXRDlNRm3Sbfz8wi6wGE8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SVGbmcrJK7k"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-09T12:09:08Z",
+        "channelId": "UCj58T9K-ltpZgyDqJMZH-6A",
+        "title": "[댕댕이 털을 짧게 자르면 안되는이유] 시츄에 대해 잘못 알고 있는 10가지 | 실은 천재견 | 골든리트리버보다 순딩이 | 강아지",
+        "description": "시츄에대해 잘못 알고 있는 10가지를 알려드립니다 #체리 인스타그램: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SVGbmcrJK7k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SVGbmcrJK7k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SVGbmcrJK7k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "A Jay TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-05-09T12:09:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ama_hpZS_7uPzngRt5YOvuD5ink",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bdK-vEjCTyM"
+      },
+      "snippet": {
+        "publishedAt": "2021-01-27T08:00:07Z",
+        "channelId": "UC5EzlBYV-8kGPWGUgoX5qiw",
+        "title": "속상해서 말대꾸하는 귀여운 시츄 강아지",
+        "description": "속상해서 말대꾸하는 귀여운 시츄 강아지 #강아지말대꾸 #강아지말대답 #시츄 #캐벌리어 #말대꾸 #말대답 #옹알이 #강아지옹알이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bdK-vEjCTyM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bdK-vEjCTyM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bdK-vEjCTyM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도그라마 Dograma",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-01-27T08:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fuU3avNUMtJP4CxEHvd_cfnJXao",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "s-km8Os3eZs"
+      },
+      "snippet": {
+        "publishedAt": "2019-04-22T23:00:02Z",
+        "channelId": "UC22go5LdQEw-iDuxFb4C0hw",
+        "title": "시츄가 많으면 할 수 있는 것 2 ㅣ What You Can Do With Lots Of Shih Tzus EP2 - Shih Tzu-ish Bed",
+        "description": "스물세마리 시츄와 함께라면 뭐든지 할 수 있어! 침대도 만들 수 이쒀! [시츄가 많으면 할 수 있는 것] 1화 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/s-km8Os3eZs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/s-km8Os3eZs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/s-km8Os3eZs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS TV동물농장x애니멀봐",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-04-22T23:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "anwt-0I0YE0dVtDjRHJqR59dt9k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yTALUKZLF2M"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-30T10:18:44Z",
+        "channelId": "UClWq4AToEhAWdCJluem6h3A",
+        "title": "한심한 인간들...",
+        "description": "귀여움으로 항상 웃음을 주는 시츄 망치 #시츄 #망치 #shihtzu #반려견.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yTALUKZLF2M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yTALUKZLF2M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yTALUKZLF2M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "뿅망치_shihTzu",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-30T10:18:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "y-kq2yLHqciU_W3Aa7nHjDj4cRs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "II9Jup05Ho4"
+      },
+      "snippet": {
+        "publishedAt": "2018-10-17T09:50:01Z",
+        "channelId": "UCee1MvXr6E8qC_d2WEYTU5g",
+        "title": "시츄 편 2부｜강형욱의 견종백과",
+        "description": "강형욱 훈련사님과 시츄 보호자님이 함께하는 생활 밀착형 견종 수다! '강형욱의 견종백과' 시츄 편 견종마다 고유의 특성, 역사뿐만 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/II9Jup05Ho4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/II9Jup05Ho4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/II9Jup05Ho4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "강형욱의 보듬TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-10-17T09:50:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "c7-vAZRY-n8H26IsfY5xpVGBeVM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ULypDpGo1WA"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-23T07:00:08Z",
+        "channelId": "UCQsr5ykLNtcYm1Q5rQ9i69g",
+        "title": "[SUB] (키워본 사람만 알 수 있는) 시츄가 사랑인 이유 | Why is Shih Tzu love that only those who have raised him know?",
+        "description": "[리얼 갬성 똥꼬발랄 댕댕이 라이프] 정말 키워본 사람만 알 수 있는 묘한 매력을 갖고 있는 시츄! 누가 뭐래도 시츄는 사랑 입니다!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ULypDpGo1WA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ULypDpGo1WA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ULypDpGo1WA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "미스터김마리_Mr. Kim Marie",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-05-23T07:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "toM3hFaBANjDO0Yi8ld7P05wR04",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ktkdHiwvylw"
+      },
+      "snippet": {
+        "publishedAt": "2018-01-03T11:48:56Z",
+        "channelId": "UCUwQycwHeDEoZYHg9VmXEFg",
+        "title": "시츄[시추] 특징,성격 [착한애견tv] 강아지분양전필수",
+        "description": "시츄[시추] 특징,성격 [착한애견tv] 강아지분양전필수 착한애견분양 = 010 6660 5939 www.chdog.co.kr.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ktkdHiwvylw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ktkdHiwvylw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ktkdHiwvylw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "착한애견tv",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-01-03T11:48:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7iosGloabz212VwLosExR3tShe4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZdiwDlvx8Ww"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-20T08:29:29Z",
+        "channelId": "UClWq4AToEhAWdCJluem6h3A",
+        "title": "같은 시츄 다른 성격 시츄들의 특징은?",
+        "description": "시츄 친구를 달봉이를 만났어요 겁이 많다고 했는데.. 망치에 비하면 자유분방하고 활발했어요 같은 시츄여도 성격이 달라요 너무 사랑 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZdiwDlvx8Ww/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZdiwDlvx8Ww/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZdiwDlvx8Ww/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "뿅망치_shihTzu",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-20T08:29:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "aJd7oGhSKfjb8rXQd2X339rDNzA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zyxDWypw2FE"
+      },
+      "snippet": {
+        "publishedAt": "2019-04-23T08:00:09Z",
+        "channelId": "UC22go5LdQEw-iDuxFb4C0hw",
+        "title": "시츄가 많으면 할 수 있는 것 3 ㅣ What You Can Do With Lots Of Shih Tzus EP3 - A Human Shih Tzu",
+        "description": "시츄 밥 먹이다가 하루가 끝남ㅋㅋㅋㅋ 23마리 시츄네 마지막 이야기☆ 이전이야기 ↓↓↓ https://youtu.be/s-km8Os3eZs ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zyxDWypw2FE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zyxDWypw2FE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zyxDWypw2FE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS TV동물농장x애니멀봐",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-04-23T08:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Jq2SvY05Ea31ntJ3vyUj4fEuieU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vH5cvKYttes"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-04T09:10:02Z",
+        "channelId": "UClWq4AToEhAWdCJluem6h3A",
+        "title": "산책 가자고 거짓말을 했더니... #시츄망치 #shorts",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vH5cvKYttes/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vH5cvKYttes/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vH5cvKYttes/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "뿅망치_shihTzu",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-04T09:10:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PDdGnCjS9ItmP6r9Wzcy_7nWTXo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mMNU-ofqbyE"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-08T02:07:12Z",
+        "channelId": "UCYZv9v_bwfMGc64gLRe34OA",
+        "title": "무려 6시간 걸친 토니안의 시츄 대가족 목욕 대작전! #TV동물농장 #AnimalFarm #SBSstory",
+        "description": "9년 동안 반려견 시츄 '월드'를 키우며 갈고 닦은 집사 스킬을 총동원해 나이 지긋한 여덟 마리 견공들의 뒷바라지를 무사히 수행한 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mMNU-ofqbyE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mMNU-ofqbyE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mMNU-ofqbyE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS STORY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-08T02:07:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "w7H8UZXR6vAmP71rt59d-ndCxqw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3O-4OUKZ22c"
+      },
+      "snippet": {
+        "publishedAt": "2018-05-08T12:02:44Z",
+        "channelId": "UCxRJW_Daog7BnU_lQYBvPTQ",
+        "title": "토탈 조회수 130만명을 넘긴 웃긴 강아지 시츄 쮸 짤막동영상 3탄!!",
+        "description": "페이스북 에서 좋아요 10만개 이상, 유튜브에서 토탈 조회수 130만명을 넘긴 강아지 시츄 쮸 영상 3탄!! 너무 웃긴 반려견 쮸의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3O-4OUKZ22c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3O-4OUKZ22c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3O-4OUKZ22c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쮸아빠 chu film",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-05-08T12:02:44Z"
+      }
+    }
+  ]
+}
