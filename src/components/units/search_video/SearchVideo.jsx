@@ -18,7 +18,7 @@ export default function SearchVideo() {
     data: searchVideos,
     refetch: searchRefetch,
   } = useQuery(
-    ["videos", "main"],
+    ["videos", keyword],
     async () => {
       return fetch(
         `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${keyword}&key=${apiKey}`

@@ -17,7 +17,6 @@ export default function Video({ category }) {
     }
   );
 
-  console.log(category);
   return (
     <>
       {category?.items?.map((video) => (
