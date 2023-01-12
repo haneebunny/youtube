@@ -8,7 +8,7 @@ export default function Layout({ children }) {
   return (
     <Container>
       <Header />
-      <div className="min-h-screen bg-slate-700">{children}</div>
+      <div className="h-full min-h-screen bg-gray-800">{children}</div>
     </Container>
   );
 }

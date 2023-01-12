@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useQuery } from "react-query";
 import { useParams } from "react-router-dom";
+import Loading from "../../commons/loading/Loading";
 import Video from "../video/Video";
 
 export default function SearchVideo() {
@@ -32,6 +33,8 @@ export default function SearchVideo() {
   );
   return (
     <div className="w-full bg-gray-800 text-white">
+      {isLoading && <Loading />}
+
       <div className="grid grid-cols-5 gap-2">
         <Video category={searchVideos} />
       </div>

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Video from "../video/Video";
 import { useQuery } from "react-query";
+import Loading from "../../commons/loading/Loading";
 
 export default function Home() {
   const [videos, setVideos] = useState();
@@ -29,9 +30,10 @@ export default function Home() {
     }
   );
 
-  console.log("popular::::", popularVideos);
+  // console.log("popular::::", popularVideos);
   return (
     <div className="w-full bg-gray-800 text-white">
+      {isLoading && <Loading />}
       <div className="grid grid-cols-5 gap-2">
         <Video category={popularVideos} />
       </div>
