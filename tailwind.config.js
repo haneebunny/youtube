@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
+    gridTemplateColumns: {
+      "fill-auto": "repeat(auto-fill, minmax(15rem, 1fr))",
+    },
     extend: {
       spacing: {
         1: "1px",

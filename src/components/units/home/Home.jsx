@@ -32,9 +32,9 @@ export default function Home() {
 
   // console.log("popular::::", popularVideos);
   return (
-    <div className="w-full bg-gray-800 text-white">
+    <div className="w-full bg-neutral-900 text-white">
       {isLoading && <Loading />}
-      <div className="grid grid-cols-5 gap-2">
+      <div className="grid grid-cols-fill-auto gap-2">
         <Video category={popularVideos} />
       </div>
     </div>

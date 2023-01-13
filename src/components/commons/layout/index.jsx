@@ -6,9 +6,11 @@ const Container = tw.div`w-full`;
 
 export default function Layout({ children }) {
   return (
-    <Container>
-      <Header />
-      <div className="h-full min-h-screen bg-gray-800">{children}</div>
+    <Container className="mx-auto flex flex-row bg-neutral-900">
+      <div className="mx-auto w-full max-w-7xl">
+        <Header />
+        <div className="h-full min-h-screen">{children}</div>
+      </div>
     </Container>
   );
 }

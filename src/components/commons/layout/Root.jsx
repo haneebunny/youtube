@@ -4,10 +4,8 @@ import Layout from ".";
 
 export default function Root() {
   return (
-    <div>
-      <Layout>
-        <Outlet />
-      </Layout>
-    </div>
+    <Layout>
+      <Outlet />
+    </Layout>
   );
 }

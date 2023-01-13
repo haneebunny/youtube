@@ -20,7 +20,10 @@ export default function Video({ category }) {
   return (
     <>
       {category?.items?.map((video) => (
-        <div key={typeof video.id === "object" ? video.id.videoId : video.id}>
+        <div
+          className="w-full"
+          key={typeof video.id === "object" ? video.id.videoId : video.id}
+        >
           <Link
             to={`/video/${
               typeof video.id === "object" ? video.id.videoId : video.id
