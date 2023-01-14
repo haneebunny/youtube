@@ -12,6 +12,7 @@ import Video from "./components/units/video/Video";
 import Root from "./components/commons/layout/Root";
 import VideoDetail from "./components/units/video_detail/VideoDetail";
 import SearchVideo from "./components/units/search_video/SearchVideo";
+import { YoutubeApiProvider } from "./context/YoutubeApiContext";
 
 const queryClient = new QueryClient();
 const router = createBrowserRouter([
@@ -26,17 +27,18 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        path: "/",
         element: <Home />,
       },
       {
-        index: true,
-        path: "/search/:keyword",
-        element: <SearchVideo />,
+        path: "/videos",
+        element: <Home />,
       },
       {
-        index: true,
-        path: "/video/:id",
+        path: "/videos/:keyword",
+        element: <Home />,
+      },
+      {
+        path: "/videos/watch/:id",
         element: <VideoDetail />,
       },
     ],
@@ -45,10 +47,12 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <QueryClientProvider client={queryClient}>
-      <RouterProvider router={router} />
-      <ReactQueryDevtools initialIsOpen={false} />
-    </QueryClientProvider>
+    <YoutubeApiProvider>
+      <QueryClientProvider client={queryClient}>
+        <RouterProvider router={router} />
+        <ReactQueryDevtools initialIsOpen={false} />
+      </QueryClientProvider>
+    </YoutubeApiProvider>
   );
 }
 

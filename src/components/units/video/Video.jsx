@@ -2,30 +2,30 @@ import React from "react";
 import { useQuery } from "react-query";
 import { Link } from "react-router-dom";
 
-export default function Video({ category }) {
-  const {
-    isLoading,
-    error,
-    data: videos,
-  } = useQuery(
-    ["videos", "main"],
-    async () => {
-      return fetch(`data/keyword.json`).then((res) => res.json());
-    },
-    {
-      staleTime: 1000 * 60 * 3,
-    }
-  );
+export default function Video({ videos }) {
+  // const {
+  //   isLoading,
+  //   error,
+  //   data: videos,
+  // } = useQuery(
+  //   ["videos", "main"],
+  //   async () => {
+  //     return fetch(`data/keyword.json`).then((res) => res.json());
+  //   },
+  //   {
+  //     staleTime: 1000 * 60 * 3,
+  //   }
+  // );
 
   return (
     <>
-      {category?.items?.map((video) => (
+      {videos?.map((video) => (
         <div
           className="w-full"
           key={typeof video.id === "object" ? video.id.videoId : video.id}
         >
           <Link
-            to={`/video/${
+            to={`/videos/watch/${
               typeof video.id === "object" ? video.id.videoId : video.id
             }`}
           >

@@ -13,7 +13,7 @@ export default function Header() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setKeyword("");
-    navigate(`/search/${keyword}`);
+    navigate(`/videos/${keyword}`);
   };
   return (
     <div className="flex w-full max-w-7xl  p-2.5">

@@ -1,41 +1,29 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Video from "../video/Video";
 import { useQuery } from "react-query";
 import Loading from "../../commons/loading/Loading";
+import { useParams } from "react-router-dom";
+import { useYoutubeApi } from "../../../context/YoutubeApiContext";
 
 export default function Home() {
-  const [videos, setVideos] = useState();
-
-  const [filter, setFilter] = useState("popular");
-  const [keyword, setKeyword] = useState("");
-
-  const apiKey = process.env.REACT_APP_YOUTUBE_API_KEY;
+  const { keyword } = useParams();
+  const { youtube } = useYoutubeApi();
 
   const {
     isLoading,
     error,
-    data: popularVideos,
-  } = useQuery(
-    ["videos", "popular"],
-    async () => {
-      return fetch(
-        `https://youtube.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&regionCode=KR&maxResults=25&key=${apiKey}`
-      ).then((res) => {
-        setFilter("popular");
-        return res.json();
-      });
-    },
-    {
-      staleTime: 1000 * 60 * 3,
-    }
-  );
+    data: videos,
+  } = useQuery(["videos", keyword], () => youtube.search(keyword), {
+    staleTime: 1000 * 60 * 3,
+  });
 
   // console.log("popular::::", popularVideos);
   return (
     <div className="w-full bg-neutral-900 text-white">
       {isLoading && <Loading />}
+      {error && { error }}
       <div className="grid grid-cols-fill-auto gap-2">
-        <Video category={popularVideos} />
+        <Video videos={videos} />
       </div>
     </div>
   );
