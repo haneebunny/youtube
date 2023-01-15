@@ -24,11 +24,7 @@ export default function Video({ videos }) {
           className="w-full"
           key={typeof video.id === "object" ? video.id.videoId : video.id}
         >
-          <Link
-            to={`/videos/watch/${
-              typeof video.id === "object" ? video.id.videoId : video.id
-            }`}
-          >
+          <Link to={`/videos/watch/${video.id}`}>
             <img src={video.snippet.thumbnails.high.url} alt="thumbnail" />
             <div className="h-10 text-sm font-bold line-clamp-2">
               {video.snippet.title}

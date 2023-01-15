@@ -17,11 +17,11 @@ export default function Home() {
     staleTime: 1000 * 60 * 3,
   });
 
-  // console.log("popular::::", popularVideos);
+  console.log(videos);
   return (
     <div className="w-full bg-neutral-900 text-white">
       {isLoading && <Loading />}
-      {error && { error }}
+      {/* {error && { error.message }} */}
       <div className="grid grid-cols-fill-auto gap-2">
         <Video videos={videos} />
       </div>
