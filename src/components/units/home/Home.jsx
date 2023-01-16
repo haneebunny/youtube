@@ -21,9 +21,11 @@ export default function Home() {
   return (
     <div className="w-full bg-neutral-900 text-white">
       {isLoading && <Loading />}
-      {/* {error && { error.message }} */}
       <div className="grid grid-cols-fill-auto gap-2">
-        <Video videos={videos} />
+        {videos.map((video) => (
+          <Video key={video.id} video={video} />
+        ))}
+        {/* <Video videos={videos} /> */}
       </div>
     </div>
   );
