@@ -1,6 +1,4 @@
-const apiKey = process.env.REACT_APP_YOUTUBE_API_KEY;
-
-export default class Youtube {
+export default class YoutubeClient {
   constructor(apiClient) {
     this.apiClient = apiClient;
   }
@@ -9,6 +7,26 @@ export default class Youtube {
     return keyword ? this.#searchByKeyword(keyword) : this.#mostPopular();
   }
 
+  async channelImageURL(id) {
+    return this.apiClient
+      .channels({ params: { part: "snippet", id } })
+      .then((res) => res.data.items[0].snippet.thumbnails.default.url);
+  }
+
+  async relatedVideos(id) {
+    return this.apiClient
+      .search({
+        params: {
+          part: "snippet",
+          maxResults: 25,
+          type: "video",
+          relatedToVideoId: id,
+        },
+      })
+      .then((res) =>
+        res.data.items.map((item) => ({ ...item, id: item.id.videoId }))
+      );
+  }
   async #searchByKeyword(keyword) {
     return this.apiClient
       .search({
@@ -20,8 +38,9 @@ export default class Youtube {
         },
       })
 
-      .then((res) => res.data.items)
-      .then((items) => items.map((item) => ({ ...item, id: item.id.videoId })));
+      .then((res) =>
+        res.data.items.map((item) => ({ ...item, id: item.id.videoId }))
+      );
   }
 
   async #mostPopular() {
@@ -31,6 +50,7 @@ export default class Youtube {
           part: "snippet",
           maxResults: 25,
           chart: "mostPopular",
+          regionCode: "KR",
         },
       })
       .then((res) => res.data.items);

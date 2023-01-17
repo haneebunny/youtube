@@ -1,36 +1,34 @@
 import React from "react";
-import { useQuery } from "react-query";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { formatAgo } from "../../../util/date";
 
-export default function Video({ video }) {
-  // const {
-  //   isLoading,
-  //   error,
-  //   data: videos,
-  // } = useQuery(
-  //   ["videos", "main"],
-  //   async () => {
-  //     return fetch(`data/keyword.json`).then((res) => res.json());
-  //   },
-  //   {
-  //     staleTime: 1000 * 60 * 3,
-  //   }
-  // );
-
+export default function Video({ video, type }) {
+  const { title, thumbnails, publishedAt, channelTitle } = video.snippet;
+  const navigate = useNavigate();
+  const isList = type === "list";
   return (
     <>
-      <div
-        className="w-full"
+      <li
+        className={isList ? "m-2 flex list-none gap-1" : "list-none"}
+        onClick={() => {
+          navigate(`/videos/watch/${video.id}`, { state: { video } });
+        }}
         key={typeof video.id === "object" ? video.id.videoId : video.id}
       >
-        <Link to={`/videos/watch/${video.id}`}>
-          <img src={video.snippet.thumbnails.high.url} alt="thumbnail" />
-          <div className="h-10 text-sm font-bold line-clamp-2">
-            {video.snippet.title}
-          </div>
-          <div className="pt-3 text-xs">{video.snippet.channelTitle}</div>
-        </Link>
-      </div>
+        {/* <Link to={`/videos/watch/${video.id}`}> */}
+        <img
+          className={isList ? "mr-2 w-60" : "w-full"}
+          src={thumbnails.high.url}
+          alt={title}
+        />
+        <div>
+          <p className="my-2 font-semibold line-clamp-2">{title}</p>
+          <p className="opactiy-80 pt-3 text-sm">{channelTitle}</p>
+          <p className="opactiy-80 pt-3 text-sm">
+            {formatAgo(publishedAt, "ko")}
+          </p>
+        </div>
+      </li>
     </>
   );
 }

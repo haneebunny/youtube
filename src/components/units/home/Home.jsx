@@ -9,20 +9,19 @@ export default function Home() {
   const { keyword } = useParams();
   const { youtube } = useYoutubeApi();
 
-  const {
-    isLoading,
-    error,
-    data: videos,
-  } = useQuery(["videos", keyword], () => youtube.search(keyword), {
-    staleTime: 1000 * 60 * 3,
-  });
+  const { isLoading, data: videos } = useQuery(
+    ["videos", keyword],
+    () => youtube.search(keyword),
+    {
+      staleTime: 1000 * 60 * 3,
+    }
+  );
 
-  console.log(videos);
   return (
     <div className="w-full bg-neutral-900 text-white">
       {isLoading && <Loading />}
       <div className="grid grid-cols-fill-auto gap-2">
-        {videos.map((video) => (
+        {videos?.map((video) => (
           <Video key={video.id} video={video} />
         ))}
         {/* <Video videos={videos} /> */}

@@ -6,6 +6,9 @@ module.exports = {
       "fill-auto": "repeat(auto-fill, minmax(15rem, 1fr))",
     },
     extend: {
+      colors: {
+        brand: "#FF0000",
+      },
       spacing: {
         1: "1px",
         2: "2px",
