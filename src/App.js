@@ -1,17 +1,13 @@
 import "./App.css";
 import { ReactQueryDevtools } from "react-query/devtools";
 import { QueryClient, QueryClientProvider } from "react-query";
-import Layout from "./components/commons/layout";
 import Home from "./components/units/home/Home";
 import {
-  BrowserRouter,
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Video from "./components/units/video/Video";
 import Root from "./components/commons/layout/Root";
 import VideoDetail from "./components/units/video_detail/VideoDetail";
-import SearchVideo from "./components/units/search_video/SearchVideo";
 import { YoutubeApiProvider } from "./context/YoutubeApiContext";
 
 const queryClient = new QueryClient();
